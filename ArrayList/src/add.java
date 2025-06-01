@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ArrayLists {
+public class add {
     public static void main(String[] args) throws Exception {
         ArrayList<String> name = new ArrayList<String>();
 
