@@ -2,15 +2,17 @@ import java.util.ArrayList;
 
 public class add {
     public static void main(String[] args) throws Exception {
-        ArrayList<String> name = new ArrayList<String>();
+        ArrayList<String> word = new ArrayList<String>();
 
-        name.add("Hello");
-        name.add("World");
+        word.add("Hello");
+        word.add("World");
+        System.out.println(word);
 
-        System.out.println(name);
-
-        for (String storage : name) {
-            System.out.print(storage);
+        for (String storage : word) {
+            System.out.println(storage);
         }
+
+        word.add(0, "Hey");
+        System.out.println(word);
     }
 }
