@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class add {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         ArrayList<String> fruit = new ArrayList<>();
         fruit.add("apple");
         fruit.add("banana");

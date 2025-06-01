@@ -1,11 +1,8 @@
-
 import java.util.ArrayList;
-
 
 public class remove {
     public static void main(String[] args) {
         ArrayList<String> fruit = new ArrayList<>();
-
         // add
         fruit.add("apple");
         fruit.add("banana");

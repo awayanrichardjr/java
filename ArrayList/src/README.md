@@ -22,7 +22,9 @@
     indexOf(Object o)
     lastIndexOf(Object o)
     subList(int fromIndex, int toIndex)
-    Checking and Querying
+    
+## Checking and Querying
+
     contains(Object o)
     isEmpty()
     size()
@@ -45,6 +47,8 @@
 
     replaceAll(UnaryOperator<E> operator)
     sort(Comparator<? super E> c)
-    Capacity and Performance
+    
+## Capacity and Performance
+
     ensureCapacity(int minCapacity)
     trimToSize()
