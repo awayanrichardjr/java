@@ -6,6 +6,7 @@ public class remove {
         // add
         fruit.add("apple");
         fruit.add("banana");
+        fruit.add("orange");
         fruit.add("guava");
         fruit.add("pineapple");
         fruit.add("durian");
