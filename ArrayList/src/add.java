@@ -11,13 +11,16 @@ public class add {
         // [avocado, apple, banana]
         
         ArrayList<String> fruit2 = new ArrayList<>();
-        fruit.add("guava");
-        fruit.add("pineapple");
-        // fruit.addAll(fruit2);
+        fruit2.add("guava");
+        fruit2.add("pineapple");
+        // [guava, pineapple]
+        
+        fruit.addAll(fruit2);
         // [avocado, apple, banana, guava, pineapple]
-
-        fruit.addAll(1, fruit2);
-        // [avocado, apple, banana, guava, pineapple]
+        
+        fruit.addAll(0, fruit2);
+        // [guava, pineapple, avocado, apple, banana, guava, pineapple]
+        
         System.out.println(fruit);
     }
 }
