@@ -5,7 +5,7 @@ public class App {
         String x = "Hello, World!";
         System.out.println(x);
 
-        String x1 = "Hello", y = "World!";
-        System.out.println(x1 + ", " + y);
+        String first_word = "Hello", second_word = "World!";
+        System.out.println(first_word + ", " + second_word);
     }
 }
